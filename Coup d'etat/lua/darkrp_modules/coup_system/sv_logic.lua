@@ -11,8 +11,6 @@ CreateConVar("sv_coup_cooldown", 10, {FCVAR_NOTIFY}, "The delay before initiatin
 
 -- reset the cooldown without requiring a command input automatically
 if Cooldown then
-    local NextCoup = CooldownTime + (GetConVar("sv_coup_cooldown"):GetInt() * 60)
-
     if CurTime() > CooldownTime + (GetConVar("sv_coup_cooldown"):GetInt() * 60) then
         Cooldown = false
         CooldownTime = nil
