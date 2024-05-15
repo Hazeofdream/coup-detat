@@ -15,7 +15,7 @@ local CoupVersion = "1.0"
 -- Really only for the developer/powerusers
 concommand.Add("coup_system_info", function()
 	local InfoTable = {
-		"https://steamcommunity.com/sharedfiles/filedetails/?id=2981130069 created by Haze_of_dream",
+		"https://steamcommunity.com/sharedfiles/filedetails/?id=3246928845 created by Haze_of_dream",
 		"",
 		"Contact at: ",
 		"STEAM_0:1:75838598",
